@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: darkgrey;
+}
+.container{
+    width: 100%;
+    /* background-color: red; */
+}
+.contact{
+    width: 50%;
+    border: 2px solid #2e5691;
+    margin: 0 auto;
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 5px;
+    background-color: gray;
+
+}
+.contact h4{
+    padding: 10px ;
+}
+
+.frm{
+    line-height: 35px;
+}
+input{
+    background-color: #999;
+}
+.main{
+    display: flex;
+}
+
+
+.btn{
+
+    padding-top: 20px;
+    padding-left: 300px;
+
+}
+.btn button{
+    border-radius: 2px;
+    border: none;
+    background-color: #2e5691;
+    padding: 5px;
+    color: #999;
+}
+.btn button:hover{
+    color: #2e5691;
+    border:2px solid #2e5691;
+    background-color: #999;
+
+}
+textarea{
+    background-color: #999;
+}
