@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+#eboutUs{
+    width: 100%;
+    .navbar{
+        width: 100%;
+        height: 10vh;background-color: aqua;
+        .container{
+            width: 85%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img{
+                width: 6%;
+            }
+            ul{
+                width: 30%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li{
+                    a{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+    
+}
