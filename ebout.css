@@ -33,7 +33,8 @@
 }
 
 #eboutUs .navbar .container img {
-  width: 6%;
+  width: 5%;
+  height: 100%;
 }
 
 #eboutUs .navbar .container ul {
@@ -52,5 +53,9 @@
 
 #eboutUs .navbar .container ul li a {
   color: red;
+}
+
+#eboutUs .ebouthedr {
+  width: 100%;
 }
 /*# sourceMappingURL=ebout.css.map */
