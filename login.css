@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-image: url("./immgg/fox.jpg");
+    background-size: cover;
+}
+.login{
+    width: 50%;
+    height: auto;
+    margin: 10% auto;
+    text-align: center;
+    flex-direction: column;
+}
+.login_1{
+    width: 100%;
+    height: auto;
+}
+.login_1 input{
+    display: flex;
+    margin: auto;
+    background: transparent;
+    border: 1px solid black;
+}
+.input{
+    width: 100%;
+    height: auto;
+}
+.input input{
+    width: 70%;
+    height: 80px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.href{
+    width: 65%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.href button{
+    width: 140px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid black;
+    background: transparent;
+    cursor: pointer;
+}
+.href button:hover{
+    background-color: rgb(182, 100, 237);
+    color: black;
+    border: 1px solid rgb(182, 100, 237);
+    transition: 0.7s;
+}
